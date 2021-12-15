@@ -1,0 +1,4 @@
+/* A la etiqueta directa que sea hija de div agregale esto */
+div > p {
+    color: red;
+}
