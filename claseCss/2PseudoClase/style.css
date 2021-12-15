@@ -1,0 +1,40 @@
+/* Pseudo clases define el estilo de un estado especial de un elemento */
+/* Pseudo elementos definen el estilo de una parte especifica de un elemento */
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+/* a todas las etiquetas "a" que estan dentro de este elemento con esta clase se le aplicara el siguiente estilo */
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: tomato;
+}
+/* pseudo clases */
+.main-nav__item a:active {
+    color: violet;
+}
+
+
+/* pseudo elementos = despues del elemento que esta adentro de la clase ".main-nav__item a" agrega este contenido*/
+.main-nav__item a::after {
+    content: " | ";
+}
+p::first-letter{
+    color: red;
+    font-size: 130%;
+}
+
