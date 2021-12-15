@@ -1,0 +1,16 @@
+p {/* por elemento */
+    color: aqua;
+    font-size: 30px;
+}
+
+/* clase/class */
+.parrafo {
+    color: brown;
+}
+
+/* ID */
+
+#texto {
+    color: chartreuse;
+    font-size: 24px;
+}
